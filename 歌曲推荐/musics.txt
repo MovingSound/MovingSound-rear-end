@@ -1,0 +1,383 @@
+1	21	流行
+2	365	流行
+3	8月31日	轻音乐
+4	Afterdark	电子
+5	All Fall Down	电子
+6	All Falls Down	电子
+7	ALONE ON THE WAY	轻音乐
+8	Always	摇滚
+9	Anonymous	轻音乐
+10	Apologize	电子
+11	Appalachian Wine	流行
+12	Are You With Me	流行
+13	Asphyxia(窒息)	轻音乐
+14	Atma	电子
+15	Autumn rain（未修改版）	轻音乐
+16	Baby I'm Yours	摇滚
+17	Back to You	流行
+18	Bang!	说唱
+19	BBBLUE (Summer Time Sadness Edit)	电子
+20	Better That We Break	流行
+21	Bloodstream	电子
+22	BONG BONG	说唱
+23	Boss Rush	电子
+24	Broken Ones	电子
+25	But U	说唱
+26	Bye Bye Bye	电子
+27	Call It Fate Call It Karma	民谣
+28	Call You Mine	民谣
+29	Can You Feel It	电子
+30	Can't Complain	流行
+31	Carry Me Home	电子
+32	Caught in the Rays (Intro)	电子
+33	Cheap Thrills (Acoustic)	说唱
+34	City	轻音乐
+35	Cold Rain	轻音乐
+36	Crashing (Stripped)	电子
+37	Curtain Call	电子
+38	Cut Loose	电子
+39	Dance to My Tune	电子
+40	Dancing in the Moonlight	流行
+41	Days	说唱
+42	DEAD SPACE	电子
+43	Dead Stock	电子
+44	Deep Down	电子
+45	Die Hard	流行
+46	Dive	流行
+47	Doin' Time	民谣
+48	Don't Give Up On Me Now	电子
+49	E For Extinction	流行
+50	Easier	流行
+51	Easy	流行
+52	Edge of the sky	轻音乐
+53	Equilibrium	电子
+54	Everglow	流行
+55	Explode	电子
+56	Extravaganza	电子
+57	FAITH	说唱
+58	Farewell（Piano?Solo）	轻音乐
+59	FEEL SOMETHING	电子
+60	Feeling?The?Rain	轻音乐
+61	Fell?for?U	轻音乐
+62	Fire Loop	民谣
+63	Flames	说唱
+64	for him	流行
+65	For Life	电子
+66	Forever Young	电子
+67	Fractures	电子
+68	FRIENDS	流行
+69	Funny	电子
+70	Ghost Of Me	电子
+71	Ghost	流行
+72	Going Down	摇滚
+73	Good Night	轻音乐
+74	Good Things Fall Apart	流行
+75	Great Vengeance	电子
+76	Gypsophila	轻音乐
+77	Hall Of Fame	电子
+78	Have a Nice Day	流行
+79	Head & Heart	电子
+80	Here We Go Again	流行
+81	Here With Me	流行
+82	Home Flight	电子
+83	Hometown?and?miss	轻音乐
+84	Homicide	民谣
+85	HoydeA	流行
+86	I Don't Care (Acoustic)	民谣
+87	I Like It Like That	流行
+88	I Wish I Was	摇滚
+89	Icy	轻音乐
+90	If I Can't Have You	民谣
+91	Illusionary Daytime	轻音乐
+92	In The Name Of Love	电子
+93	Iron Princess	电子
+94	Is This The World We Created (2014 Remaster)	摇滚
+95	It's Your?Birthday	轻音乐
+96	JENNY	说唱
+97	Just Like A Gold Rush	流行
+98	Lalala	流行
+99	Last?Reincarnation	轻音乐
+100	Lie To Me	电子
+101	Listen Closely	流行
+102	Living Color	电子
+103	Long Shot	流行
+104	Love is Love	民谣
+105	Lovebird (Remix)	民谣
+106	Love?home	轻音乐
+107	MAGENTA POTION	电子
+108	Magical	流行
+109	Map	说唱
+110	MARIA	民谣
+111	ME(美)	民谣
+112	Melody	流行
+113	Memories	电子
+114	Midnight Sun	流行
+115	Midsummer Madness	说唱
+116	Miko Skip	轻音乐
+117	Miss	电子
+118	Monkeybiz	电子
+119	MORUHINE	电子
+120	No New Friends	流行
+121	Nobody	民谣
+122	OK Not To Be OK	流行
+123	Old?Memory	轻音乐
+124	One Look	电子
+125	ONE MINUTE	说唱
+126	One&Only	说唱
+127	One?More?Chance (幻梦Ver)	轻音乐
+128	Only Ones Who Know	摇滚
+129	Only Wish	轻音乐
+130	Out in the Way	摇滚
+131	Paint Me in God	民谣
+132	Paradigm Shift	电子
+133	Paranoia	电子
+134	Perfect	说唱
+135	Pisces	轻音乐
+136	Pretender	电子
+137	Pretty Please	流行
+138	Pure Water	说唱
+139	Rainy Dumplings	轻音乐
+140	Rain?after?Summer	轻音乐
+141	Reality	电子
+142	Rescue Me	民谣
+143	Sad Forever	民谣
+144	Sad Songs	流行
+145	Sad!	流行
+146	Safe	电子
+147	Sakura Tears	轻音乐
+148	Save Me (2014 Remaster)	摇滚
+149	Save Me	摇滚
+150	Scream	电子
+151	Shadows	电子
+152	Sitting Here In Silence (On My Own)	流行
+153	Solo Dance (Club Mix)	电子
+154	Something Strange	流行
+155	Somnambulating	轻音乐
+156	Songbird	摇滚
+157	Speechless (Full)	民谣
+158	Spicy	民谣
+159	Sterelogue	电子
+160	Still	轻音乐
+161	Strayer	电子
+162	Summer Days	说唱
+163	Summer?Fantasy~	轻音乐
+164	Sun In Our Eyes	流行
+165	SWAG午觉	说唱
+166	Swear to God	电子
+167	Terminal?illness	轻音乐
+168	That's My Jam	流行
+169	The Next Best American Record	流行
+170	There's Nothing Holdin' Me Back	流行
+171	These Are The Times	电子
+172	The?rain	轻音乐
+173	The?truth?that?you?leave	轻音乐
+174	Thinkin Bout You	流行
+175	This Town (Gucci Mane Edit)	电子
+176	This Town	电子
+177	Tiny Heart，Tiny Love	电子
+178	Touch?the?Rain	轻音乐
+179	Tough Love	民谣
+180	TOU	说唱
+181	Turn Back Time	流行
+182	Undefeated	流行
+183	UNDERTHESURFACE	电子
+184	Unity	电子
+185	walking seasons	轻音乐
+186	Waste It On Me	流行
+187	Watermelon Sugar	流行
+188	We Do	流行
+189	What Are You Waiting For？	流行
+190	Whataya Want from Me	电子
+191	What’s Life	说唱
+192	When I'm Sixty-Four	摇滚
+193	When?I?see?the?light?at?that?Time	轻音乐
+194	Where?are?you	轻音乐
+195	Whistle For The Choir	流行
+196	Windy?Hill	轻音乐
+197	Wish You	民谣
+198	With You	电子
+199	Won't Go Home Without You	流行
+200	Wunderbar	电子
+201	You Know What？	流行
+202	You're Gonna Go Far, Kid	流行
+203	Young	流行
+204	Zombie	流行
+205	ζ	轻音乐
+206	η	轻音乐
+207	κ	轻音乐
+208	《从你的全世界路过》插曲扒带完整版	轻音乐
+209	またね幻	流行
+210	アンコール	民谣
+211	シロクマ	流行
+212	テトロドトキサイザ2号	电子
+213	一个好汉三个Bang	说唱
+214	一心不乱	电子
+215	三十而慄	流行
+216	不搭	流行
+217	不是每趟爱情都能开往地老天荒	民谣
+218	世界上不存在的歌 (2020重唱版)	流行
+219	中二也要弹钢琴	轻音乐
+220	临安初雨(纯音乐)	轻音乐
+221	为霜	轻音乐
+222	乘客	流行
+223	二十一世纪的破青年	流行
+224	于我而言	流行
+225	云淡风轻	民谣
+226	今夜的星光	轻音乐
+227	以一种假装放荡的矜持　与你告别	轻音乐
+228	优美的小调(钢琴曲)	轻音乐
+229	你再也读不出我任何欲望	轻音乐
+230	你曾是少年	民谣
+231	你看到的我是蓝色的	流行
+232	傷ノ林檎	电子
+233	儿时的夏日	轻音乐
+234	再见流行音乐	说唱
+235	冬天的风	流行
+236	凉	轻音乐
+237	初めてのデート	轻音乐
+238	别君赋	轻音乐
+239	别念	轻音乐
+240	别来无恙	说唱
+241	午夜伤心电台	说唱
+242	参宿四~Betelgeuse~	电子
+243	只是当时已惘然	轻音乐
+244	台北流浪指南	流行
+245	向左向右	说唱
+246	和煦的糖果风	轻音乐
+247	喜剧之王	流行
+248	四块五	民谣
+249	四月樱花	轻音乐
+250	在哪里都很好	流行
+251	城南花已开	轻音乐
+252	境外	流行
+253	夏に花が散る	轻音乐
+254	夏の喚く	轻音乐
+255	夏夜	轻音乐
+256	夜、萤火虫和你	轻音乐
+257	夜空的寂静	轻音乐
+258	夜色钢琴曲	轻音乐
+259	大眠	流行
+260	失物之城	流行
+261	失眠飞行	民谣
+262	好好	流行
+263	如果当时2020	流行
+264	孤独之书	民谣
+265	孤立我	流行
+266	孤身	民谣
+267	安静的午后	轻音乐
+268	寂川	轻音乐
+269	寂静之空	轻音乐
+270	寻	轻音乐
+271	小丑女	说唱
+272	小孩	流行
+273	小樱	轻音乐
+274	山海不可平	轻音乐
+275	幽玄の世界	说唱
+276	废话	民谣
+277	当安静的公园披上了夜网, 东方的夜莺徒然向玫瑰花歌唱	轻音乐
+278	彼方へ	轻音乐
+279	很难	流行
+280	忆夏思乡	轻音乐
+281	忧伤的巨人	流行
+282	恍惚交错的记忆	轻音乐
+283	惊梦	轻音乐
+284	想念自己	流行
+285	愚公移山	说唱
+286	我	流行
+287	我们别时和见时不同	轻音乐
+288	我只能离开	流行
+289	我在那一角落患过伤风	轻音乐
+290	我是一只小小鸟	民谣
+291	我的一个道姑朋友	民谣
+292	所念皆星河	轻音乐
+293	拂晓车站	轻音乐
+294	拥有Masbfca (广告配乐完整版)	轻音乐
+295	摩天动物园	流行
+296	放空	流行
+297	无人知晓的我	流行
+298	无所求必满载而归	流行
+299	早春的树	流行
+300	时雨	轻音乐
+301	明明	流行
+302	星空	轻音乐
+303	星茶会	轻音乐
+304	春日	轻音乐
+305	春风再美也比不上你的笑，没见过你的人自然不会明了。	轻音乐
+306	是红	民谣
+307	晚星	轻音乐
+308	晴天的周末在去学校补课的路上遇见了喜欢的人	轻音乐
+309	暖雨	轻音乐
+310	最初	轻音乐
+311	最后　仍在一起	轻音乐
+312	月色与雪色之间，你是第三种绝色。	轻音乐
+313	望天	轻音乐
+314	来不及	流行
+315	林深见鹿 海蓝见鲸 梦醒见你	轻音乐
+316	梦想的呼吸	民谣
+317	森林	轻音乐
+318	森林古堡	轻音乐
+319	樱华彩（off vocal）	轻音乐
+320	欢迎光临	说唱
+321	武侯祠	轻音乐
+322	死无对证	民谣
+323	残酷月光	民谣
+324	水星记	流行
+325	污泥	民谣
+326	流浪地球主题音乐	轻音乐
+327	海の形	轻音乐
+328	淘汰	流行
+329	深夜一角	流行
+330	游吟诗人	说唱
+331	漂流浴室	流行
+332	潮?汐	说唱
+333	烟花落	轻音乐
+334	焚梦	轻音乐
+335	熹光	轻音乐
+336	独行	轻音乐
+337	献给艾米丽的玫瑰	说唱
+338	生而不同	说唱
+339	盛开成花树	轻音乐
+340	看起来不错其实也还好	流行
+341	真资格	说唱
+342	离川	轻音乐
+343	秋～華恋～	轻音乐
+344	等你的日子不值一提	民谣
+345	繁华的寂静	轻音乐
+346	脆弱一分钟	流行
+347	自洽	流行
+348	花?が?とぶ?飛ぶ	轻音乐
+349	若你碰到他	流行
+350	莫愁	民谣
+351	葬花	轻音乐
+352	蚍蜉	流行
+353	行雲流水	轻音乐
+354	街上孩子的梦	电子
+355	视线所及只剩生活	民谣
+356	说再见	民谣
+357	谢谢你(Thank U)	说唱
+358	谷雨?伴奏	轻音乐
+359	资深庸才	流行
+360	超人	民谣
+361	距离你的泪滴只有六厘米	流行
+362	跟太阳系说再见	轻音乐
+363	踏浪（Waves）	说唱
+364	这一路走来	流行
+365	这是一个问题	说唱
+366	这是我一生中最勇敢的瞬间	民谣
+367	迷宫	流行
+368	那个男人	流行
+369	那些事情是真的有意思吗	流行
+370	那些你对我说过的话	流行
+371	金陵谣	民谣
+372	长安四韵	民谣
+373	门	流行
+374	阳光明媚的早晨我迟到了	轻音乐
+375	附加题	民谣
+376	雨夜	轻音乐
+377	雨空	轻音乐
+378	青石巷	轻音乐
+379	青空	轻音乐
+380	非流行说唱	说唱
+381	風見鶏	轻音乐
+382	鱼	流行
+383	鲸鱼	民谣
