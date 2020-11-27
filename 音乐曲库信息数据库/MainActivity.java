@@ -1,87 +1,65 @@
-package com.example.dsmusic3;
+package com.example.myapplication;
 
-import android.annotation.SuppressLint;
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.Toast;
 
-import java.util.HashMap;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends Activity {
+import com.example.myapplication.service.UserService;
 
-    private Button btn_get_data;
-    private TextView tv_data;
-
-    @SuppressLint("HandlerLeak")
-    private Handler handler = new Handler(){
-        @Override
-        public void handleMessage(Message msg) {
-
-            switch (msg.what){
-                case 0x11:
-                    String s = (String) msg.obj;
-                    tv_data.setText(s);
-                    break;
-                case 0x12:
-                    String ss = (String) msg.obj;
-                    tv_data.setText(ss);
-                    break;
-            }
-
-        }
-    };
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // 控件的初始化
-        btn_get_data = findViewById(R.id.btn_get_data);
-        tv_data = findViewById(R.id.tv_data);
-
-        setListener();
+        setContentView(R.layout.activity_main);//即activity_login.xml
+        findViews();
     }
+    private EditText username;
+    private EditText password;
+    private Button login;
+    private Button register;
 
-    /**
-     * 设置监听
-     */
-    private void setListener() {
+    private void findViews() {
+        username=(EditText) findViewById(R.id.et_user_name);
+        password=(EditText) findViewById(R.id.et_psw);
+        login=(Button) findViewById(R.id.btn_login);
+        register=(Button) findViewById(R.id.btn_register);
 
-        // 按钮点击事件
-        btn_get_data.setOnClickListener(new View.OnClickListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String name=username.getText().toString();
+                System.out.println(name);
+                String pass=password.getText().toString();
+                System.out.println(pass);
 
-                // 创建一个线程来连接数据库并获取数据库中对应表的数据
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        // 调用数据库工具类DBUtils的getInfoByName方法获取数据库表中数据
-                        HashMap<String, Object> map = DBUtils.getInfoByName();
-                        Message message = handler.obtainMessage();
-                        if(map != null){
-                            String s = "";
-                            for (String key : map.keySet()){
-                                s += key + ":" + map.get(key) + "\n";
-                            }
-                            message.what = 0x12;
-                            message.obj = s;
-                        }else {
-                            message.what = 0x11;
-                            message.obj = "查询结果为空";
-                        }
-                        // 发消息通知主线程更新UI
-                        handler.sendMessage(message);
-                    }
-                }).start();
+                Log.i("TAG",name+"_"+pass);
+                UserService uService=new UserService(MainActivity.this);
+                boolean flag=uService.login(name, pass);
 
+                if(flag){
+                    Log.i("TAG","登录成功");
+                    Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(MainActivity.this,register.class);
+                    startActivity(intent);
+                }else{
+                    Log.i("TAG","登录失败");
+                    Toast.makeText(MainActivity.this, "登录失败", Toast.LENGTH_LONG).show();
+                }
             }
         });
-
+        register.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,register.class);
+                startActivity(intent);
+            }
+        });
     }
 }
+
