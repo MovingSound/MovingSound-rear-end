@@ -1,7 +1,8 @@
 from numpy import *
 import time
 from texttable import Texttable
-
+import numpy as np
+from numpy import array as matrix, arange
 # 协同过滤推荐算法主要分为：
 # 1、基于用户。根据相邻用户，预测当前用户没有偏好的未涉及物品，计算得到一个排序的物品列表进行推荐
 # 2、基于物品。如喜欢物品A的用户都喜欢物品C，那么可以知道物品A与物品C的相似度很高，而用户C喜欢物品A，那么可以推断出用户C也可能喜欢物品C。
@@ -47,6 +48,66 @@ class CF:
         # 推荐列表
         self.recommandList = []
         self.cost = 0.0
+
+    #歌曲相似矩阵
+    def musicSimilarity(self):
+        musicsim =zeros((383,383))
+        for v in self.userDict.values():
+            for i in range(0,len(v)):
+                for j in range(i+1,len(v)):
+                    if v[i][1] != 0 and v[j][1] != 0:
+                        x=int(v[i][0])-1
+                        y=int(v[j][0])-1
+                        musicsim[x][y] += 1
+        musicsim = np.triu(musicsim)
+        musicsim += musicsim.T - np.diag(musicsim.diagonal())
+        return musicsim
+
+    '''#
+    def ItemSimilarity(self,train):
+        # calculate co-rated users between items
+        C = dict()
+        N = dict()
+        for u, items in train.items():
+            for i in self.userDict:
+                N[i] += 1
+        for j in self.userDict:
+            if i == j:
+                continue
+        C[i][j] += 1 / math.log(1 + len(items) * 1.0)
+        # calculate finial similarity matrix W
+        W = dict()
+        for i, related_items in C.items():
+            for j, cij in related_items.items():
+                W[u][v] = cij / math.sqrt(N[i] * N[j])
+        return W'''
+
+    #计算各首歌曲被喜欢的次数
+    def musicLike(self,musicsim):
+        musicLikeNum = []
+        for i in range(0,musicsim.shape[1]):
+            num = 0
+            for j in range(0,musicsim.shape[1]):
+                num += musicsim[i][j]
+            musicLikeNum.append(num)
+        return musicLikeNum
+
+    #基于物品的推荐
+    def recommendByMusic(self,musicId):
+        musicsim = self.musicSimilarity()
+        print(musicsim)
+        print("计算与musicId相似的歌曲:",musicId)
+        musicLikeNum = self.musicLike(musicsim)
+        max = -1
+        maxsim = 0.
+        for i in range(0,len(musicLikeNum)):
+            if math.sqrt(musicLikeNum[i]*musicLikeNum[musicId-1]) != 0:
+                sim = musicsim[musicId-1][i]/math.sqrt(musicLikeNum[i]*musicLikeNum[musicId-1])
+            if sim > maxsim:
+                maxsim = sim
+                max = i+1
+        print("推荐的歌曲为:",max)
+        print("相似度为:",maxsim)
 
     # 基于用户的推荐
     # 根据对电影的评分计算用户之间的相似度
@@ -208,6 +269,7 @@ musics = readmusicFile("E:/python/软工实践/团队编程/musicdata/musics.txt
 ratings = readFile("E:/python/软工实践/团队编程/musicdata/ratings.txt")
 demo = CF(musics, ratings, k=10)
 demo.recommendByUser("1")
+demo.recommendByMusic(208)
 print("推荐列表为：")
 demo.showTable()
 print("处理的数据为%d条" % (len(demo.ratings)))
